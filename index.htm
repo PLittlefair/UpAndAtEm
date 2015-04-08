@@ -7,8 +7,18 @@
 		<title>ITS ALIVE</title>
 	</head>
 	<body>
-		<meta name="apple-mobile-web-app-capable" content="yes">
-		<link rel="apple-touch-icon" href="knowledge.png">
 		<p>Its alive...sort of...</p>
+<script>
+var link = document.createElement('link');
+link.href = "knowledge.png";
+link.ref = "apple-touch-icon";
+var meta = document.createElement('meta');
+meta.name = "apple-mobile-web-app-capable";
+meta.content = "yes";
+var head = document.getElementsByTagName('head');
+head.appendChild(link);
+head.appendChild(meta);
+
+</script>
 	</body>
 </html>
