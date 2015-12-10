@@ -13,12 +13,10 @@ body {
     line-height: 1.8;
     background: #fff url('../Football_small.png') 0 0 repeat;
     background-attachment: fixed;
-    font-family: 'Roboto', sans-serif;
     font-family: 'Indie Flower', cursive;
 }
-main {
+.wrapper {
     background-color: #E62117;
-    border: 0;
     border-left: 1em solid #eee;
     border-right: 1em solid #eee;
     margin: 0 auto;
