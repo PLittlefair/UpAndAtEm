@@ -69,7 +69,6 @@ body {
     background: #fff url('../charlie.jpg') 0 0 no-repeat;
     background-size: 300px 300px;
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../charlie.jpg', sizingMethod='scale');
-    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../charlie.jpg', sizingMethod='scale')";
 }
 
 .profile--heading {
