@@ -15,7 +15,7 @@ body {
     background-attachment: fixed;
     font-family: 'Indie Flower', cursive;
 }
-.wrapper {
+main {
     background-color: #E62117;
     border-left: 1em solid #eee;
     border-right: 1em solid #eee;
@@ -24,6 +24,7 @@ body {
     min-width: 365px;
     color: #fff;
     position: relative;
+    display: block;
 }
 
 .main, .video {
